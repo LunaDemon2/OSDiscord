@@ -6,8 +6,6 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '::create') {
-        message.reply('𒐸𐌅𐌀𐌽𐌕𐋏𐍈𐌑𒐸#3545');
     if (message.content === '::ping') {
     	message.reply('pong');
   	}
