@@ -11,5 +11,12 @@ client.on('message', message => {
   	}
 });
 
+
+client.on('message', message => {
+    if (message.content === '::owner') {
+    	message.reply('@𒐸𐌅𐌀𐌽𐌕𐋏𐍈𐌑𒐸#3545');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
