@@ -48,6 +48,8 @@ bot.on("message", async message => {
 
     return;
   }
+  
+  });
 
   if(cmd === `${prefix}ban`){
 
@@ -75,6 +77,8 @@ bot.on("message", async message => {
 
     return;
   }
+
+});
 
 
   if(cmd === `${prefix}report`){
@@ -104,7 +108,7 @@ bot.on("message", async message => {
     return;
   }
 
-
+});
 
 
   if(cmd === `${prefix}serverinfo`){
@@ -122,7 +126,7 @@ bot.on("message", async message => {
     return message.channel.send(serverembed);
   }
 
-
+});
 
   if(cmd === `${prefix}botinfo`){
 
